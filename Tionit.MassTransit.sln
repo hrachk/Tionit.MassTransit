@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tionit.MassTransit.Consumer", "Tionit.MassTransit.Consumer\Tionit.MassTransit.Consumer.csproj", "{0841B1A7-C59C-4470-BEA7-807F6B186664}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MassTransit.Consumer", "Tionit.MassTransit.Consumer\Tionit.MassTransit.Consumer.csproj", "{0841B1A7-C59C-4470-BEA7-807F6B186664}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tionit.RabbitMQ.Producer", "Tionit.RabbitMQ.Producer\Tionit.RabbitMQ.Producer.csproj", "{CE90A90F-373A-4C13-885D-A7FD0141863B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.RabbitMQ.Producer", "Tionit.RabbitMQ.Producer\Tionit.RabbitMQ.Producer.csproj", "{CE90A90F-373A-4C13-885D-A7FD0141863B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tionit.MassTransit.API", "Tionit.MassTransit.API\Tionit.MassTransit.API.csproj", "{E784D55B-22CE-4089-BC78-3713E206F858}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{CE90A90F-373A-4C13-885D-A7FD0141863B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE90A90F-373A-4C13-885D-A7FD0141863B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE90A90F-373A-4C13-885D-A7FD0141863B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E784D55B-22CE-4089-BC78-3713E206F858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E784D55B-22CE-4089-BC78-3713E206F858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E784D55B-22CE-4089-BC78-3713E206F858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E784D55B-22CE-4089-BC78-3713E206F858}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

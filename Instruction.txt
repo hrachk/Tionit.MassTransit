@@ -1,0 +1,9 @@
+1. See appsettings.json (Tionit.MassTransit.API) - ConnectionStrings
+
+2. (Tionit.MassTransit.Consumer)> Entities ConnectionString
+
+3. (Tionit.MassTransit.Consumer)> Write in Package Manager Console  command   Update-Database
+
+4. Start Producer
+5. Start Consumer
+6. Start API
